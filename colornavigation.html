@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head> <title> color navigation </title> 
+
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+<script>
+// $(document).ready(function(){
+//     $(document).click(function(evt){
+//         var xPos = evt.pageX;
+//         var yPos = evt.pageY;
+//         // $('body').append("<div>click</div>")
+//         $('div:last').css("position", "absolute").css("top", yPos).css("left", xPos);
+//     });
+
+
+
+
+
+// ~~~~~~~~~~~~~~~~~~IMAGE MAPPING~~~~~~~~~~~~~~~~~~~
+
+
+// off set jquery
+
+
+// });
+
+
+
+$(document).ready(function(){
+	$('#redorangeshade').click(function(){
+	$('p').each(function(){
+		var offset = $(this).offset();
+		$(this).offset({top: offset.top + 0, left:offset.left + -800});
+		});
+	});
+});
+
+
+</script>
+
+
+<!-- 
+// 
+// 
+// $(document).ready(function(){
+//   $('#redorangeshade').click(function(){
+//   		
+// 		$('div').each(function(){
+// 		$(this).offset({ top: 0, left:  -800 });
+// 		});
+// 	});
+// });
+ -->
+<!-- // </script> -->
+ <style>
+
+body {
+background-color: white;
+}
+
+#redshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(175, 0, 0, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top:-16px;
+left:0;
+}
+
+
+#red{
+border-style: solid;
+border-width: 0;
+border-color:rgba(225, 100, 0, 0.8); 
+background-color: rgba(225, 0, 0, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 984px;
+left:0;
+}
+
+
+#redtint{
+border-style: solid;
+border-width: 0;
+border-color:rgba(225, 50, 50, 0.8); 
+background: rgba(225, 50, 50, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 1984px;
+left:0;
+}
+
+#redorangeshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(175, 10, 0, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top:-16px;
+left: 1000px;
+}
+
+
+#redorange{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(225, 30, 0, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 984px;
+left:1000px;
+}
+
+
+#redorangetint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(225, 70, 50, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 1984px;
+left: 1000px;
+}
+
+#yelloworangeshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(175, 100, 0, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 2984px;
+left: 1000px;
+
+}
+
+
+#yelloworange{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(225, 125, 0, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 3984px;
+left: 1000px;
+}
+
+
+#yelloworangetint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(225, 175, 100, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 4984px;
+left: 1000px;
+}
+
+
+#yellowgreenshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(125, 175, 0, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 5984px;
+left: 1000px;
+
+}
+
+
+#yellowgreen{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(175, 225, 0, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 6984px;
+left: 1000px;
+}
+
+
+#yellowgreentint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(175, 225, 50, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 7984px;
+left: 1000px;
+}
+
+#greenblueshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(0, 175, 175, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top:-16px;
+left: 2000;
+}
+
+
+#greenblue{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(0, 225, 225, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 984px;
+left:2000;
+}
+
+
+#greenbluetint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(100, 225, 225, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 1984px;
+left:2000;
+}
+
+#bluepurpleshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(50, 0, 175, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 2984px;
+left: 2000;
+}
+
+
+#bluepurple{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(100, 0, 225, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 3984px;
+left: 2000;
+}
+
+
+#bluepurpletint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(100, 50, 225, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 4984px;
+left: 2000;
+}
+
+#redpurpleshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(175, 0, 125, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 5984px;
+left: 2000px;
+
+}
+
+
+#redpurple{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(225, 0, 175, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 6984px;
+left: 2000px;
+}
+
+
+#redpurpletint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(225, 100, 175, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 7984px;
+left: 2000px;
+}
+
+
+
+
+#greenshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(0, 100, 0, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top:-16px;
+left: 3000px;
+
+}
+
+
+#green{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(0, 150, 0, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 984px;
+left: 3000px;
+}
+
+
+#greentint{
+border-style: solid;
+border-width: 0;
+ 
+background: rgba(50, 150, 50, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 1984px;
+left:3000px;
+}
+
+#orangeshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(200, 30, 0, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 2984px;
+left: 0;
+}
+
+
+#orange{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(225, 70, 0, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 3984px;
+left: 0;
+}
+
+
+#orangetint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(225, 100, 50, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 4984px;
+left: 0;
+}
+
+#blueshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(0, 0, 175, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 2984px;
+left: 3000px;
+
+}
+
+
+#blue{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(0, 0, 225, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 3984px;
+left: 3000px;
+}
+
+
+#bluetint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(50, 50, 225, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 4984px;
+left: 3000px;
+}
+
+#yellowshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(175, 175, 0, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 5984px;
+left: 0;
+}
+
+
+#yellow{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(225, 225, 0, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 6984px;
+left: 0;
+}
+
+
+#yellowtint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(225, 225, 100, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 7984px;
+left: 0;
+}
+
+
+
+#violetshade{
+border-style: solid;
+border-width: 0;
+ 
+background-color: rgba(175, 0, 175, 0.8);  
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 5984px;
+left: 3000px;
+
+}
+
+
+#violet{
+border-style: solid;
+border-width: 0;
+
+background-color: rgba(225, 0, 225, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 6984px;
+left: 3000px;
+}
+
+
+#violettint{
+border-style: solid;
+border-width: 0;
+
+background: rgba(225, 100, 225, 0.8); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 7984px;
+left: 3000px;
+}
+</style>
+
+
+</head>
+<body>
+
+
+
+
+ <a href="#greenshade"> <p id=redshade> </p> </a>
+
+ <a href="#red"> <p id=greenshade> </p> </a>
+ 
+ <a href="#green"> <p id=red> </p> </a>
+ 
+ <a href="#redtint"> <p id=green> </p> </a>
+ 
+ <a href="#greentint"> <p id=redtint> </p> </a> 
+
+ <a href="#orangeshade"> <p id=greentint> </p> </a>
+
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+ <a href="#blueshade"> <p id=orangeshade> </p> </a>
+
+ <a href="#orange"> <p id=blueshade> </p> </a>
+ 
+ <a href="#blue"> <p id=orange> </p> </a>
+ 
+<a href="#orangetint"> <p id=blue> </p> </a>
+ 
+ <a href="#bluetint"> <p id=orangetint> </p> </a>
+ 
+<a href="#yellowshade"> <p id=bluetint> </p> </a>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+
+ <a href="#violetshade"> <p id=yellowshade> </p> </a>
+ 
+  <a href="#yellow"> <p id=violetshade> </p> </a>
+ 
+ <a href=" #violet"> <p id=yellow> </p> </a>
+ 
+  <a href=" #yellowtint"> <p id=violet> </p> </a>
+ 
+ <a href=" #violettint"> <p id=yellowtint> </p> </a>
+ 
+ <a href=" #redorangeshade"> <p id=violettint> </p> </a>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+<!-- <a href=" #greenblueshadecenter"> --> <p id=redorangeshade> 
+<span id="greenblueshadecenter"; style="position:relative; top:10px; left: 900px; <!-- visibility:hidden; -->">.</span>
+ </p> <!-- </a> -->
+
+ <a href=" #redorange"> <p id=greenblueshade> </p> </a>
+ 
+ <a href=" #greenbluecenter"> <p id=redorange> 
+ <span id="greenbluecenter"; style="position:relative; top:800px; left: 800px; visibility:hidden;">.</span>
+ </p> </a>
+ <a href=" #redorangetint"> <p id=greenblue> 
+  <span id="greenbluecenter"; style="position:relative; top:500px; left: 500px; visibility:hidden;">.</span>
+ </p> </a>
+<a href=" #greenbluetintcenter"> <p id=redorangetint> </p> </a>
+<span id="greenbluetintcenter"; style="position:relative; top:800px; left: 800px; visibility:hidden;">.</span>
+ </p> </a>
+ <a href=" #yelloworangeshade"> <p id=greenbluetint> </p> </a>
+ 
+ 
+ 
+
+
+<a href=" #bluepurpleshadecenter"> <p id=yelloworangeshade> </p> </a>
+
+ <a href=" #yelloworange"> <p id=bluepurpleshade> </p> </a>
+ 
+ <a href=" #bluepurplecenter"> <p id=yelloworange> </p> </a>
+ 
+  <a href=" #yelloworangetint"><p id=bluepurple> </p> </a>
+ 
+<a href=" #bluepurpletintcenter"> <p id=yelloworangetint> </p> </a>
+
+
+
+
+
+
+
+<a href=" #yellowgreenshade"> <p id=bluepurpletint> </p> </a>
+ <a href=" #redpurpleshadecenter"> <p id=yellowgreenshade> </p> </a>
+ <a href=" #yellowgreen"> <p id=redpurpleshade> </p> </a>
+<a href=" #redpurplecenter"><p id=yellowgreen> </p> </a>
+ <a href=" #yellowgreentint"> <p id=redpurple> </p> </a>
+<a href=" #redpurpletintcenter"> <p id=yellowgreentint> </p> </a>
+<a href=" #redshade"><p id=redpurpletint> </p> </a>
+
+
+</body>
